@@ -1,0 +1,29 @@
+{
+    "template": {
+        "src": "file:///C:/data/aescript/project/main.aep",
+        "composition": "main"
+    },
+    "assets": [
+        {
+            "src": "file:///C:/Users/root/source/extendscript-ts-template/dist/index.jsx",
+            "type": "script",
+            "parameters": [
+                {
+                    "type": "string",
+                    "key" : "output",
+                    "value": "C:/data/temp2.mp4"
+                },
+                {
+                    "type": "string",
+                    "key" : "start",
+                    "value": 1.5
+                },
+                {
+                    "type": "string",
+                    "key" : "duration",
+                    "value": 30.0
+                }
+            ]
+        }
+    ]
+}

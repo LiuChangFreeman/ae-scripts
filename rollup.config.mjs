@@ -3,8 +3,8 @@ import typescript from "@rollup/plugin-typescript";
 export default {
   input: "src/index.ts",
   output: {
-    dir: "dist",
-    format: "cjs",
+    file: "dist/index.jsx",
+    format: "cjs"
   },
-  plugins: [typescript()],
+  plugins: [typescript({ compilerOptions: { target: "es5" } })]
 };

@@ -2,6 +2,7 @@
 
 import "./init"; // NOTE: This is required. Load the required polyfills
 import { find, forEach, toArray } from "./lib/collection";
+import { ItemCollection } from "types-for-adobe";
 
 // If the project has compositions, debug display the layer name of the first obtained compo
 
@@ -9,7 +10,7 @@ import { find, forEach, toArray } from "./lib/collection";
 function displayCompLayerNames1() {
   const comp = find<ItemCollection, CompItem>(
     app.project.items,
-    (item) => item instanceof CompItem,
+    (item) => item instanceof CompItem
   );
 
   if (comp) {

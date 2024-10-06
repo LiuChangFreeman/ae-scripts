@@ -14,5 +14,8 @@
     // This option suppresses warnings:
     "ignoreDeprecations": "5.0"
   },
-  "include": ["src/**/*", "src/types"]
+  "include": [
+    "src/**/*",
+    "src/types"
+  ]
 }

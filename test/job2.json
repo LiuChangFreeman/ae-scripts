@@ -1,0 +1,39 @@
+{
+    "template": {
+        "src": "file:///D:/ae_projects/done/subtitle_1/main.aep",
+        "composition": "main"
+    },
+    "assets": [
+        {
+            "src": "file:///C:/Users/root/source/extendscript-ts-template/dist/index.jsx",
+            "type": "script",
+            "parameters": [
+                {
+                    "type": "string",
+                    "key" : "stretch",
+                    "value": 20
+                },
+                {
+                    "type": "string",
+                    "key" : "text",
+                    "value": "这是一句测试文字"
+                },
+                {
+                    "type": "string",
+                    "key" : "output",
+                    "value": "C:/Users/root/Desktop/temp.mp4"
+                },
+                {
+                    "type": "string",
+                    "key" : "start",
+                    "value": 0.0
+                },
+                {
+                    "type": "string",
+                    "key" : "duration",
+                    "value": 3.0
+                }
+            ]
+        }
+    ]
+}
