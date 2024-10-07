@@ -1,0 +1,38 @@
+{
+    "template": {
+        "src": "file:///C:/data/templates/4/main.aepx",
+        "composition": "main"
+    },
+    "assets": [
+        {
+            "src": "file:///C:/data/aerender/index.jsx",
+            "type": "script",
+            "parameters": [
+                {
+                    "type": "string",
+                    "key" : "stretch",
+                    "value": 150
+                },
+                {
+                    "type": "string",
+                    "key" : "text_main",
+                    "value": "凉凉夜色为你思念成河"
+                },
+                {
+                    "type": "string",
+                    "key" : "text_sub",
+                    "value": "The cool night has turned my thoughts of you into a river."
+                }
+            ]
+        }
+    ],
+    "actions": {
+        "postrender": [
+            {
+                "module": "@nexrender/action-copy",
+                "input": "result.mov",
+                "output": "C:/data/result.mov"
+            }
+        ]
+    }
+}
