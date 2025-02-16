@@ -142,8 +142,8 @@
         "path": "5/main.aepx",
         "width": 1280,
         "height": 720,
-        "fps": 30,
-        "duration": 150,
+        "fps": 25,
+        "duration": 125,
         "copyright": {
             "type": "warning",
             "desc": "非个人使用请获取版权许可",
