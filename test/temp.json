@@ -133,5 +133,31 @@
                 "value": "Beautiful small fresh particle subtitle animation"
             }
         ]
+    },
+    {
+        "name": "粉色爱心",
+        "id": "5",
+        "version": 2,
+        "comp": "main",
+        "path": "5/main.aepx",
+        "width": 1280,
+        "height": 720,
+        "fps": 30,
+        "duration": 150,
+        "copyright": {
+            "type": "warning",
+            "desc": "非个人使用请获取版权许可",
+            "link": {
+                "url": "https://www.51miz.com",
+                "text": "觅知网"
+            }
+        },
+        "components": [
+            {
+                "type": "string",
+                "key" : "text_main",
+                "value": "随风奔跑自由是方向"
+            }
+        ]
     }
 ]
